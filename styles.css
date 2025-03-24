@@ -1,0 +1,29 @@
+/* Tailwind utility classes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styling */
+.nav-link {
+    @apply text-gray-300 hover:text-blue-400 transition;
+}
+
+.btn-primary {
+    @apply px-6 py-3 bg-blue-500 rounded-lg hover:bg-blue-600 transition;
+}
+
+.btn-secondary {
+    @apply px-6 py-3 border border-blue-500 rounded-lg hover:bg-blue-500/10 transition;
+}
+
+.project-card {
+    @apply bg-gray-700 p-6 rounded-lg shadow-lg transition-transform hover:scale-105;
+}
+
+.tech-stack span {
+    @apply bg-gray-600 text-gray-300 px-3 py-1 rounded-full text-sm;
+}
+
+input, textarea {
+    @apply w-full p-4 bg-gray-700 rounded-lg focus:ring-2 focus:ring-blue-400 outline-none;
+}
